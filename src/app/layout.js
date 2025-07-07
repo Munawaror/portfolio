@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased w-full max-w-[1152px] mx-auto bg[#FFFFFF] dark:bg-[#FFFFFF] h-auto`}
       >
-        < HeaderComponents/>
+        <HeaderComponents />
         {children}
         <FooterComp/>
       </body>
