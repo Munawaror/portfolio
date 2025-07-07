@@ -1,8 +1,7 @@
 import React from 'react'
+
+
 import WorkpageComp from './WorkpageComp'
-
-
-
 
 
 const WorkPage = () => {

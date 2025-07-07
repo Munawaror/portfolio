@@ -1,4 +1,3 @@
-
 import ButtonComp from '@/components/common/ButtonComp'
 import Image from 'next/image'
 import React from 'react'
