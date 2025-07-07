@@ -21,7 +21,7 @@ const HeaderComponent = () => {
                     toggleMobileNav && (
                         <div className='w-[360px] p-6 mx-auto absolute top-7 right-6 z-10 bg-white shadow-lg'>
                             <nav className='w-full flex flex-col items-center justify-between gap-6'>
-                                <Link className='text-[#000000] text-xl font-medium cursor-pointer' href='works'>Works</Link>
+                                <Link className='text-[#000000] text-xl font-medium cursor-pointer' href='work'>Works</Link>
                                 <Link className='text-[#000000] text-xl font-medium cursor-pointer' href='blog'>Blog</Link>
                                 <Link className='text-[#000000] text-xl font-medium cursor-pointer' href='contact'>Contact</Link>
                             </nav>
@@ -31,8 +31,8 @@ const HeaderComponent = () => {
 
             </div>
             <nav className='w-[236px] hidden sm:flex items-center justify-between '>
-                <Link className='text-[#000000] text-xl font-medium cursor-pointer' href='works'>Blog</Link>
-                <Link className='text-[#000000] text-xl font-medium cursor-pointer' href='blog'>Works</Link>
+                <Link className='text-[#000000] text-xl font-medium cursor-pointer' href='blog'>Blog</Link>
+                <Link className='text-[#000000] text-xl font-medium cursor-pointer' href='work'>Works</Link>
                 <Link className='text-[#000000] text-xl font-medium cursor-pointer' href='contact'>Contact</Link>
             </nav>
 
